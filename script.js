@@ -374,4 +374,222 @@ const questions = [
     {text: 'Cho phép dùng chung các modul trong bộ nhớ ', correct: false}
     ]
   },
+
+  {
+    question: 'Trong kĩ thuật quản lý bộ nhớ theo phân chương động:',
+    answers: [
+      {text: 'Bộ nhớ là một vùng nhớ trống bên ngoài bộ nhớ được cấp cho HĐH', correct: false},
+      {text: 'Bộ nhớ chia thành các phân vùng với kích thước phù hợp với yêu cầu của tiến trình', correct: true},
+      {text: 'Bộ nhớ chia thành các phân vùng có kích thước cố định', correct: false},
+      {text: 'Bộ nhớ chia thành các phân vùng có kích thước bằng nhau ', correct: false}
+      ]
+    },
+
+  {
+    question: 'Với một hệ thống đa chương trình thì bộ nhớ sẽ chứa nhứng gì?',
+    answers: [
+      {text: 'Bộ nhớ là một vùng nhớ trống bên ngoài bộ nhớ được cấp cho HĐH', correct: false},
+      {text: 'Hệ điều hành và nhiều tiến trình', correct: true},
+      {text: 'Bộ nhớ chia thành các phân vùng có kích thước cố định', correct: false},
+      {text: 'Trong khi các chương trình ứng dụng được kích hoạt ', correct: false}
+    ]
+  },
+  {
+    question: 'Trong kĩ thuật quản lí bộ nhớ theo phân chương động',
+    answers: [
+      {text: 'Bộ nhớ vật lí có cấu trúc phân trang', correct: false},
+      {text: 'Sử dụng danh sách quản lí bộ nhớ tự do riêng', correct: false},
+      {text: 'Sử dụng danh sách quản lí bộ nhớ tự do chung', correct: true},
+      {text: 'Bộ nhớ vật lý được áp dụng theo cơ chế hoàn chuyển Swapking ', correct: false}
+    ]
+  },
+  {
+    question: 'Hệ điều hành quản lí bộ nhớ chính gồm những gì',
+    answers: [
+      {text: 'A.	Cấp phát và thu hồi bộ nhớ', correct: false},
+      {text: 'B.	Ghi nhận trạng thái của bộ nhớ chính', correct: false},
+      {text: 'C.	Quyết định tiến trình nào được nạp vào bộ nhớ và bảo mật bộ nhớ', correct: false},
+      {text: 'D.	Tất cả đều đúng ', correct: true}
+    ]
+  },
+  {
+    question: 'Khối mô tả tiến trình là vùng nhớ các thông tin về',
+    answers: [
+      {text: 'A.	Vùng bộ nhớ chứa chương trình đang thực hiện', correct: false},
+      {text: 'B.	Vùng bộ nhớ trao đổi thông tin giữa các tiến trình', correct: false},
+      {text: 'C.	Vùng bộ nhớ chứa dữ liệu của chương trình đang thực hiện', correct: false},
+      {text: 'D.	Vùng bộ nhớ chứa giá trị của các thanh ghi mà tiến trình đang sử dụng ', correct: true}
+      ]
+  },   
+  {
+    question: ' Hành động nào của HĐH sẽ thực thi khi một tiến trình mới khi sinh ra',
+    answers: [
+      {text: 'A.	Phân phối CPU ngay trên tiến trình', correct: false},
+      {text: 'B.	Tạo ngay khối mô tả tiến trình để quản lí', correct: true},
+      {text: 'C.	Phân phối ngay tài nguyên mà tiến trình yêu cầu', correct: false},
+      {text: 'D.	Đưa tiến trình về trạng thái thực hiện ', correct: false}
+      ]
+  },
+  {
+    question: ' Độ ưu tiên của các tiến trình cho biết điều gì?',
+    answers: [
+      {text: 'A.	Tiến trình sử dụng CPU nhiều hay ít', correct: false},
+      {text: 'B.	Tiến trình có quan trọng hay không', correct: true},
+      {text: 'C.	Tiến trình chiếm dụng tài nguyên nhiều hay ít', correct: false},
+      {text: 'D.	Thời gian thực hiện tiến trình lâu hay ít ', correct: false}
+    ]
+  },
+  {
+    question: ' Các công cụ điều độ quản lí tiến trình của HĐH thực hiện chức năng:',
+    answers: [
+      {text: 'A.	Tạo lập để hủy bỏ tiến trình, tạm dừng và tái kích hoạt tiến trình', correct: false},
+      {text: 'B.	Tạo cơ chế thông tin liên lạc giữa các tiến trình', correct: false},
+      {text: 'C.	Tạo cơ chế đồng bộ hóa giữa các tiến trình', correct: false},
+      {text: 'D.	Tất cả đ.án đều đúng ', correct: true}
+    ]
+  },  
+  {
+  question: ' Nguyên tắc Hệ điều hành có quan hệ với ngôn ngữ nào?',
+  answers: [
+      {text: 'A.	Ngôn ngữ giao tiếp, ngôn ngữ thực hiện, ngôn ngữ máy', correct: false},
+      {text: 'B.	ngôn ngữ máy, ngôn ngữ thực hiện, ngôn ngữ thuật toán', correct: false},
+      {text: 'C.	ngôn ngữ thuật toán, ngôn ngữ vận hành, ngôn ngữ thực hiện', correct: true},
+      {text: 'D.	ngôn ngữ thực hiện, ngôn ngữ vận hành, ngôn ngữ máy', correct: false}
+    ]
+  },
+  {
+  question: ' Để đảm bảo tính chất thuận tiện HĐH cần:',
+  answers: [
+      {text: 'A.	Kế thừa public trước', correct: false},
+      {text: 'B.	Có nhiều mức hiệu quả tùy thuộc vào kinh nghiệm, kiến thức người dùng', correct: true},
+      {text: 'C.	Đảm bảo chương trình, dữ liệu không bị xóa theo ý muốn', correct: false},
+      {text: 'D.	Thích nghi với sự thay đổi có trong tương lai', correct: false}
+    ]
+  },
+  {
+  question: ' : Đảm bảo tính chất tin cậy, HĐH cần: ',
+  answers: [
+      {text: 'A.	Tiến trình được bảo vệ theo nhiều mức không dùng hệ thống', correct: false},
+      {text: 'B.	Đảm bảo sự đồng bộ trong toàn hệ thống', correct: false},
+      {text: 'C.	Mọi công việc có thể thực hiện được trên nhiều phương tiện khác nhau', correct: false},
+      {text: 'D.	Mọi công việc có thể được kiểm tra và đánh giá', correct: true}
+    ]
+  },
+  {
+  question: ' : Nhiệm vụ chính của HĐH ',
+  answers: [
+      {text: 'A.	Tiến trình được bảo vệ theo nhiều mức không dùng hệ thống', correct: false},
+      {text: 'B.	Đảm bảo sự đồng bộ trong toàn hệ thống', correct: false},
+      {text: 'C.	Mọi công việc có thể thực hiện được trên nhiều phương tiện khác nhau', correct: false},
+      {text: 'D.	Quản lí tài nguyên', correct: true}
+    ]
+   },
+   {
+  question: ' Trong hệ điều hành Windows tên tệp có độ dài tối đa là',
+  answers: [
+      {text: 'A.	  11 ki tự', correct: false},
+      {text: 'B.	  255 kí tự', correct: true},
+      {text: 'C.	  256 kí tự', correct: false},
+      {text: 'D.	  8 kí tự', correct: false}
+    ]
+   },  
+   {
+  question: '	Trong chế độ phân chương tĩnh của quản lý bộ nhớ vật lý',
+  answers: [
+      {text: 'A.	   Không có hiện tượng phân đoạn ngoài', correct: false},
+      {text: 'B.	   Tồn tại một danh sách quản lý bộ nhớ tự do chung', correct: false},
+      {text: 'C.	   Hệ thống điều khiển không bị sao chép đi nơi khác', correct: false},
+      {text: 'D.	   Đơn giản, dễ bảo vệ', correct: true}
+    ]
+   },  
+   {
+  question: '	Để một chương trình có thể thực hiện được, nó phải',
+  answers: [
+      {text: 'A.	Cần phải được dịch sang mã máy', correct: false},
+      {text: 'B.	 Tất cả đều đúng', correct: false},
+      {text: 'C.	 Được nạp và định vị trong bộ nhớ bất kỳ', correct: false},
+      {text: 'D.	 Được phân phối đầy đủ tài nguyên yêu cầu và được quyền sử dụng Processor', correct: true}
+    ]
+   }, 
+   {
+  question: '	Trong cấu trúc phân đoạn của quản lý bộ nhớ logic',
+  answers: [
+      {text: 'A.	   Cần có sự hỗ trợ của phần cứng', correct: false},
+      {text: 'B.	   Người dùng phải dùng các lệnh macro để nạp, định vị các modul của chương trình', correct: false},
+      {text: 'C.	   Hiệu quả tăng dần theo kích thước bộ nhớ', correct: true},
+      {text: 'D.	   Hạn chế một số cách gọi chương trình con', correct: false}
+    ]
+   },  
+   {
+  question: 'Trong quản lý bộ nhớ vật lý theo kỹ thuật phân trang, cách khắc phục hiện tượng thiêu bộ nhớ là',
+  answers: [
+      {text: 'A.	   Chuyển một số trang của các chương trình ra bộ nhớ ngoài', correct: false},
+      {text: 'B.	   Tuỳ thuộc vào tình trạng cụ thể của bộ nhớ', correct: false},
+      {text: 'C.	   Thực hiện thay thế các trang', correct: true},
+      {text: 'D.	   Loại bớt các chương trình không cần thiết', correct: false}
+    ]
+   },  
+   {
+  question: 'Việc phân bổ không gian nhớ cho một tiến trình dùng phương pháp phân đoạn sử dụng thanh ghi cơ sở và thanh ghi giới hạn, biết tiến trình được phân bổ vùng nhớ 4 đoạn: mã lệnh, dữ liệu, ngăn xếp, và vùng nhớ heap, số các thanh ghi cần dùng là:',
+  answers: [
+      {text: 'A.	4', correct: false},
+      {text: 'B.	2', correct: false},
+      {text: 'C.	 8', correct: true},
+      {text: 'D.	 16', correct: false}
+    ]
+   },  
+   {
+  question: '	Khi một tiến trình đang thực hiện yêu cầu một tài nguyên, nhưng chưa được đáp ứng do tài nguyên chưa được sẵn sàng, tiến trình này sẽ chuyển về trạng thái',
+  answers: [
+      {text: 'A.	    Kết thúc', correct: false},
+      {text: 'B.	    Khởi tạo', correct: false},
+      {text: 'C.	    Khóa ( Ngắt )', correct: true},
+      {text: 'D.	    sẵn sàng', correct: false}
+    ]
+   },  
+   {
+  question: 'Phát biểu nào sau đây là không đúng',
+  answers: [
+      {text: 'A.	Tiến trình là một quá trình đang được thực hiện 1 chương trình trong hệ thống máy tính', correct: false},
+      {text: 'B.	Các tiến trình độc lập không có quan hệ gì trực tiếp với nhau', correct: false},
+      {text: 'C.	Tiến trình là chương trình đang được thực hiện ở trong hệ thống máy tính', correct: true},
+      {text: 'D.	Tiến trình được hình thành khi có yêu cầu và kết thúc khi công việc được hoàn tất', correct: false}
+    ]
+   },  
+   {
+  question: '	Các công cụ điều độ, quản lý tiến trình của hệ điều hành thực hiện chức năng:',
+  answers: [
+      {text: 'A.	  Tạo lập, hủy bỏ tiến trình, tạm dừng, tái kích hoạt tiến trình', correct: false},
+      {text: 'B.	   Tất cả đều đúng', correct: true},
+      {text: 'C.	   Tạo cơ chế đồng bộ hóa giữa các tiến trình', correct: false},
+      {text: 'D.	  Tạo cơ chế thông tin liên lạc giữa các tiến trình', correct: false}
+    ]
+   },
+   {
+  question: 'Khi xác định có tiến trình nằm trong trang thái tắc nghẽn, Hệ điều hành phải	',
+  answers: [
+      {text: 'A.	   Kiểm tra việc phân phối tài nguyên', correct: false},
+      {text: 'B.	   Yêu cầu người dung xử lý', correct: false},
+      {text: 'C.	    Mô phỏng tài nguyên và tiếp tục cấp phát tài nguyên cho tiến tình', correct: false},
+      {text: 'D.	    Khóa tiến trình và thu hồi tài nguyên', correct: true}
+           ]
+   },  
+   {
+  question: 'Hệ điều hành của một máy tính đóng vai trò như một giao tiếp phần mềm giữa người sử dụng và:	',
+  answers: [
+      {text: 'A.	Phần cứng', correct: true},
+      {text: 'B.	Màn hình', correct: false},
+      {text: 'C.	Thiết bị ngoại vi', correct: false},
+      {text: 'D.	Bộ nhớ', correct: false}
+           ]
+   },
+   {
+  question: 'Cơ chế phòng đệm cho phép	',
+  answers: [
+      {text: 'A.	Thực hiện trước các phép nhập liệu', correct: false},
+      {text: 'B.	Giảm số lần truy cập vật lý', correct: false},
+      {text: 'C.	Tất cả đều đúng', correct: true},
+      {text: 'D.	Dùng một số vùng nhớ chung làm phòng đệ', correct: false}
+           ]
+   }, 
 ]
