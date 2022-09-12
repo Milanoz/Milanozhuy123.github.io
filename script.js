@@ -1001,5 +1001,53 @@ const questions = [
       { text: 'Giảm bớt không gian dư thừa trên đĩa', correct: false },
       { text: 'Giảm thời gian dịch chuyển đầu từ khi thực hiện đọc/ghi', correct: true }
     ]
-}
+}    {
+    question: 'Dưới góc độ người dùng, hệ điều hành có thể được phân thành các loại?',
+    answers: [
+      {text: 'HĐH ngang hàng, HĐH có máy chủ', correct: false},
+      {text: 'HĐH cho máy mainframe, HĐH cho server, HĐH multiprocessor', correct: true},
+      {text: 'HĐH ngang hàng, HĐH cho máy mainframe, HĐH multiprocessor', correct: false},
+      {text: 'HĐH xử lý theo lô, HĐH chia sẻ, HĐH cho hệ thống song song, HĐH phân tán, HĐH xử lý thời gian thực',correct: false}
+    ]
+  },
+  {
+    question: 'Đâu là thành phần giám sát (supervisor) các hoạt động của máy tính',
+    answers: [
+      {text: 'Chương trình ứng dụng', correct: false},
+      {text: 'Hệ điều hành', correct: true},
+      {text: 'Đơn vị điều khiển', correct: false},
+      {text: 'CPU.',correct: false}
+    ]
+  },
+  {
+    question: 'Nhiệm vụ chính của một hệ điều hành của máy tính là:',
+    answers: [
+      {text: 'Màn hình', correct: false},
+      {text: 'Cung cấp các tiện ích', correct: false},
+      {text: 'Ra lệnh cho các tài nguyên', correct: false},
+      {text: 'Quản lý tài nguyên',correct: true}
+    ]
+  },
+  {
+    question: 'Khi khởi động máy tính, hệ điều hành được nạp vào:',
+    answers: 
+[
+    {text: 'Bộ nhớ ngoài', correct: false},
+    {text: 'Bộ nhớ chuyên dụng', correct: false},
+    {text: 'Bộ nhớ RAM', correct: true},
+    {text: 'Bộ nhớ ROM', correct: false}
+]
+},
+
+
+{
+    question: 'Hệ điều hành của một máy tính đóng vai trò như một giao tiếp phần mềm giữa người sử dụng và',
+    answers: 
+[
+    {text: 'Màn hình', correct: false},
+    {text: 'Phần cứng', correct: true},
+    {text: 'Thiết bị ngoại vi', correct: false},
+    {text: 'Bộ nhớ', correct: false}
+ ]
+},
 ]
