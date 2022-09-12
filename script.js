@@ -1077,4 +1077,31 @@ const questions = [
       {text: 'Không có tiến trình chiếm dụng tài nguyên.',correct: true}
     ]
   },
+  {
+    question: 'Khi điều độ tiến trình, đối với phương pháp khóa trong, các tiến trình',
+    answers: [
+      {text: 'Sử dụng 1 byte trong vùng nhớ chung làm khóa', correct: true},
+      {text: 'Sử dụng 1 byte trong vùng nhớ riêng làm khóa', correct: false},
+      {text: 'Sử dụng 1 Byte trong vùng nhớ riêng làm khóa toàn cục', correct: false},
+      {text: 'Sử dụng 1 Byte trong vùng nhớ chung làm khóa toàn cục',correct: false}
+    ]
+  },
+  {
+    question: 'Tiến trình đang thực thi sẽ chuyển về loại danh sách nào khi xảy ra sự kiện đợi một thao tác nhập/xuẩt hoàn tất, yêu cầu tài nguyên dữ liệu chưa được thoã mãn, yêu cầu tạm dừng:',
+    answers: [
+      {text: 'Danh sách tác vụ (Job list)', correct: false},
+      {text: 'Danh sách chờ đợi (Waiting list)', correct: true},
+      {text: 'Tiến trình đang thực thi (Running)', correct: false},
+      {text: 'Danh sách sẵn sàng (Ready list) ',correct: false}
+    ]
+  },
+  {
+    question: 'Khi một tiến trình người dùng gọi đến một lời gọi hệ thống, tiến trình của hệ điều hành xử lí lời gọi này hoạt động theo chế độ:',
+    answers: [
+      {text: 'Đặc quyền', correct: true},
+      {text: 'Không có chế độ nào cả', correct: false},
+      {text: 'Cả 2 chế độ độc quyền và không độc quyền', correct: false},
+      {text: 'Không độc quyền',correct: false}
+    ]
+  }
 ]
