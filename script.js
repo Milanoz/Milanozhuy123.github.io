@@ -1001,7 +1001,7 @@ const questions = [
       { text: 'Giảm bớt không gian dư thừa trên đĩa', correct: false },
       { text: 'Giảm thời gian dịch chuyển đầu từ khi thực hiện đọc/ghi', correct: true }
     ]
-}    {
+},    {
     question: 'Dưới góc độ người dùng, hệ điều hành có thể được phân thành các loại?',
     answers: [
       {text: 'HĐH ngang hàng, HĐH có máy chủ', correct: false},
@@ -1050,4 +1050,31 @@ const questions = [
     {text: 'Bộ nhớ', correct: false}
  ]
 },
+  {
+    question: 'Phần mềm là chương trình mà điều khiển hoạt động chung của một máy tính, đơn giản hóa việc sử dụng của nó và tương tác với người dùng. Đâu là các kiểu khác nhau của phần mềm này',
+    answers: [
+      {text: 'Hệ điều hành', correct: false},
+      {text: 'Các tiện ích', correct: false},
+      {text: 'Tất cả các phần mềm trên', correct: true},
+      {text: 'Trình biên dịch ngôn ngữ',correct: false}
+    ]
+  },
+    {
+    question: 'Hệ điều hành quản lý',
+    answers: [
+      {text: 'Bộ xử lý', correct: false},
+      {text: 'Các thiết bị vào ra và đĩa', correct: false},
+      {text: 'Bộ nhớ', correct: true},
+      {text: 'Tất cả những tài nguyên trên',correct: true}
+    ]
+  },
+  {
+    question: 'Khi có nhiều tiến trình muốn sử dụng tài nguyên găng thì',
+    answers: [
+      {text: 'Phân phối tài nguyên cho tất cả các tiến trình', correct: false},
+      {text: 'Sử dụng 1 byte trong bộ nhớ chung làm khóa cho tài nguyên', correct: false},
+      {text: 'Mô phỏng tài nguyên, và phân phối tài nguyên mô phỏng cho tiến trình', correct: false},
+      {text: 'Không có tiến trình chiếm dụng tài nguyên.',correct: true}
+    ]
+  },
 ]
