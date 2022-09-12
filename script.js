@@ -592,4 +592,414 @@ const questions = [
       {text: 'D.	Dùng một số vùng nhớ chung làm phòng đệ', correct: false}
            ]
    }, 
+      {
+    question: 'Việc áp dụng nguyên tắc tương đối trong định vị khi xây dựng hệ điều hành cần phải:',
+    answers: [
+      {text: 'Sử dụng bộ nhớ hiệu quả hơn', correct: true},
+      {text: 'Cho phép người dùng chọn giải pháp tối ưu với bài toán của mình', correct: false},
+      {text: 'Tồn tại cơ chế liên kết các Modul độc lập', correct: false},
+      {text: 'Dễ dàng bảo vệ chương trình và dữ liệu.',correct: false}
+    ]
+  },
+  {
+    question: 'Chỉ ra phương án nào không phải là tầng của hệ điều hành',
+    answers: [
+      {text: 'Shell', correct: false},
+      {text: 'Đoạn găng', correct: true},
+      {text: 'Chương trình ứng dụng', correct: false},
+      {text: 'Kernel.',correct: false}
+    ]
+  },
+  {
+    question: 'Các phiên bản của hệ điều hành được viết sao cho các chương trình được thiết kế cho các phiên bản trước đây vẫn có thể chạy. Điều này được gọi là:',
+    answers: [
+      {text: 'Có thể phân mức lên trên', correct: false},
+      {text: 'Tính tương thích hướng lên', correct: true},
+      {text: 'Tính vạn năng', correct: false},
+      {text: 'Tính cơ động hướng lên',correct: false}
+    ]
+  },
+  {
+    question: 'Trong cấu trúc phân đoạn của quản lý bộ nhớ logic',
+    answers: 
+[
+    {text: 'Hiệu quả phụ thuộc vào cấu trúc ban đầu của chương trình nguồn ', correct: true},
+    {text: 'Có tính lưu động cao', correct: false},
+    {text: 'Thời gian thực hiện lớn (vừa thực hiện, vừa định vị)', correct: false},
+    {text: 'Đẩy hệ số tích trữ bộ nhớ lên cao', correct: false}
+    ]},
+
+
+{
+    question: 'Hệ điều hành quản lý',
+    answers: 
+[
+    {text: 'Bộ xử lý', correct: false},
+    {text: 'Bộ nhớ', correct: false},
+    {text: 'Các thiết bị vào ra và đĩa', correct: false},
+    {text: 'Tất cả những tài nguyên trên', correct: true}
+    ]},
+
+
+{
+    question: 'Một trong những đặc điểm của hệ điều hành đơn chương là?',
+    answers: 
+[
+    {text: 'Là hệ thống có hai hay nhiều CPU cùng chia sẻ bộ nhớ', correct: false},
+    {text: 'Tác vụ được thực hiện luân phiên và nhiều tác vụ được lưu trong bộ nhớ tại một thời điểm', correct: false},
+    {text: 'Tác vụ được thực hiện luân phiên với thời gian đáp ứng nhỏ (1s) và nhiều tác vụ được lưu trong bộ nhớ tại một thời điểm.', correct: false},
+    {text: 'Tác vụ được thực thi một cách tuần tự và chỉ có một tác vụ được lưu trong bộ nhớ', correct: true}
+    ]},
+
+{
+    question: 'Trong phân loại, hệ điều hành được cài đặt trên hệ thống nhiều vi xử lý nhằm chia sẻ dữ liệu, đường truyền, các thiết bị ngoại vi… thuộc dạng:',
+    answers: 
+[
+    {text: 'Hệ điều hành xử lý đa chương', correct: false},
+    {text: 'Hệ điều hành xử lý thời gian thực', correct: false},
+    {text: 'Hệ điều hành xử lý đa nhiệm', correct: false},
+    {text: 'Hệ điều hành xử lý phân tán', correct: true}
+    ]}, 
+
+
+{
+    question: 'Hệ điều hành được nạp:',
+    answers: 
+[
+    {text: 'Trong khi các chương trình ứng dụng được kích hoạt', correct: false},
+    {text: 'Khi các chương trình ứng dụng có yêu cầu nạp hệ điều hành', correct: false},
+    {text: 'Sau khi các chương trình ứng dụng được kích hoạt', correct: false},
+    {text: 'Trước khi các chưong trình ứng dụng được kích hoạt', correct: true}
+    ]},
+
+{
+    question: 'Hệ điều hành quản lý',
+    answers: 
+[
+    {text: 'Bộ xử lý', correct: false},
+    {text: 'Bộ nhớ', correct: false},
+    {text: 'Các thiết bị vào ra và đĩa', correct: false},
+    {text: 'Tất cả những tài nguyên trên', correct: true}
+    ]},
+
+    {
+        question: 'Dưới góc độ người dùng, hệ điều hành có thể được phân thành các loại?',
+        answers: [
+          { text: 'HĐH ngang hàng, HĐH cho máy mainframe, HĐH multiprocessor', correct: false },
+          { text: 'HĐH cho máy mainframe, HĐH cho server, HĐH multiprocessor', correct: false },
+          { text: 'HĐH xử lý theo lô, HĐH chia sẻ, HĐH cho hệ thống song song, HĐH phân tán, HĐH xử lý thời gian thực', correct: false },
+          { text: 'HĐH ngang hàng, HĐH có máy chủ', correct: true }
+        ]
+      },
+
+    {
+        question: 'Để đảm bảo tính chất an toàn, hệ điều hành cần phải',
+        answers: [
+          { text: 'Duy trì sự đồng bộ thông tin trong hệ thống', correct: false },
+          { text: 'Mọi công việc đều phải được kiểm tra và đánh giá', correct: false },
+          { text: 'Các tài nguyên được khai thác một cách triệt để ngay cả khi điều kiện tài nguyên hạn chế.', correct: false },
+          { text: 'Tổ chức dữ liệu và chương trình không bị xóa hoặc thay đổi ngoài ý muốn', correct: true }
+        ]
+    },
+
+
+    {
+        question: 'Hệ điều hành là hệ thống chương trình phần mềm',
+        answers: [
+          { text: 'Hỗ trợ người dùng thực hiện một file bất kỳ', correct: false },
+          { text: 'Quản lý bộ nhớ và thiết bị ngoại vi', correct: false },
+          { text: 'Điều khiển thực hiện phần mềm', correct: false },
+          { text: 'Quản lý các tài nguyên trên máy tính', correct: true }
+        ]
+    },
+
+    {
+        question: 'Khi khởi động máy tính, hệ điều hành được nạp vào:',
+        answers: [
+          { text: 'Bộ nhớ RAM', correct: true },
+          { text: 'Bộ nhớ RAM', correct: true },
+          { text: 'Bộ nhớ RAM', correct: true },
+          { text: 'Bộ nhớ RAM', correct: true }
+        ]
+    },
+
+    {
+        question: 'Có mấy lớp giải thuật điều độ cấp thấp?',
+        answers: [
+          { text: '111', correct: false },
+          { text: '111', correct: false },
+          { text: '111', correct: false },
+          { text: '111', correct: true }
+        ]
+    },
+
+    {
+        question: 'Nhiệm vụ nào sau đây không phải là nhiệm vụ của HĐH trong quản lý bộ nhớ chính?',
+        answers: [
+          { text: 'Theo dõi, quản lý các vùng nhớ trống và các vùng nhớ đã cấp phát', correct: false },
+          { text: 'Cấp phát và thu hồi các vùng nhớ khi cần thiết', correct: false },
+          { text: 'Quyết định sẽ nạp chương trình nào khi có vùng nhớ trống', correct: false },
+          { text: 'Định thời hoạt động cho bộ nhớ thứ cấp', correct: true }
+        ]
+    },
+
+    {
+        question: 'Độ ưu tiên của các tiến trình cho biết:',
+        answers: [
+          { text: 'Tiến trình chiếm dụng tài nguyên nhiều hay ít', correct: false },
+          { text: 'Thời gian thực hiện của tiến trình nhiều hay ít', correct: false },
+          { text: 'Tiến trình sử dụng CPU nhiều hay ít', correct: false },
+          { text: 'Tiến trình có tầm quan trọng hay không', correct: true }
+        ]
+    },
+
+    {
+        question: 'Đâu là mô tả thích hợp về nhiệm vụ quản lý tiến trình (process management) của hệ điều hành',
+        answers: [
+          { text: '111', correct: false },
+          { text: '111', correct: false },
+          { text: '111', correct: false },
+          { text: '111', correct: true }
+        ]
+    },
+
+    {
+        question: 'Tiến trình đang thực thi sẽ chuyển về loại danh sách nào khi xảy ra sự kiện đợi một thao tác nhập/xuẩt hoàn tất, yêu cầu tài nguyên dữ liệu chưa được thoã mãn, yêu cầu tạm dừng:',
+        answers: [
+          { text: 'Tiến trình đang thực thi (Running)', correct: false },
+          { text: 'Danh sách sẵn sàng (Ready list)', correct: false },
+          { text: 'Danh sách tác vụ (Job list)', correct: false },
+          { text: 'Danh sách chờ đợi (Waiting list)', correct: true }
+        ]
+    },
+
+    {
+        question: 'Khi một tiến trình nằm trong trạng thái tắc nghẽn, hệ điều hành cần thực hiện',
+        answers: [
+          { text: 'Xác định nguyên nhân gây tắc nghẽn', correct: false },
+          { text: 'Phân phối thêm tài nguyên cho tiến trình', correct: false },
+          { text: 'Đưa tiến trình về trạng thái thực hiện', correct: false },
+          { text: 'Đình chỉ tiến trình và thu hồi tài nguyên', correct: true }
+        ]
+    },
+
+    {
+        question: 'Một tiến trình thông thường có mấy trạng thái?',
+        answers: [
+          { text: '3 trạng thái', correct: false },
+          { text: '4 trạng thái', correct: false },
+          { text: '6 trạng thái', correct: false },
+          { text: '5 trạng thái', correct: true }
+        ]
+    },
+
+    {
+        question: 'Trạng thái của một tiến trình sau khi nó gặp một lệnh vào ra là trạng thái',
+        answers: [
+          { text: 'Trạng thái idle', correct: false },
+          { text: 'Sẵn sàng (ready)', correct: false },
+          { text: 'Đang chạy', correct: false },
+          { text: 'Trạng thái bị chặn (hoặc chờ)', correct: true }
+        ]
+    },
+
+    {
+        question: 'Khi điều độ tiến trình, đối với phương pháp khóa trong, các tiến trình',
+        answers: [
+          { text: 'Sử dụng 1 Byte trong vùng nhớ chung làm khóa toàn cục', correct: false },
+          { text: 'Sử dụng 1 Byte trong vùng nhớ riêng làm khóa toàn cục', correct: false },
+          { text: 'Sử dụng 1 byte trong vùng nhớ riêng làm khóa', correct: false },
+          { text: 'Sử dụng 1 byte trong vùng nhớ chung làm khóa', correct: true }
+        ]
+    },
+
+    {
+        question: 'Khi một tiến trình người dùng gọi đến một lời gọi hệ thống, tiến trình của hệ điều hành xử lí lời gọi này hoạt động theo chế độ:',
+        answers: [
+          { text: 'Không có chế độ nào cả', correct: false },
+          { text: 'Cả 2 chế độ độc quyền và không độc quyền', correct: false },
+          { text: 'Không độc quyền', correct: false },
+          { text: 'Đặc quyền', correct: true }
+        ]
+    },
+
+    {
+        question: 'Các thanh ghi giới hạn',
+        answers: [
+          { text: 'Chỉ cần thiết với các đoạn cố định', correct: false },
+          { text: 'Có trong việc lưu trữ biến trung gian của chương trình', correct: false },
+          { text: 'Chỉ cần thiết với các đoạn cố định', correct: false },
+          { text: 'Theo dõi vị trí bắt đầu và kết thúc của chương trình', correct: true }
+        ]
+    },
+
+    {
+        question: 'Nguyên tắc cục bộ tham chiếu giải thích cho việc sử dụng',
+        answers: [
+          { text: 'Cache', correct: false },
+          { text: 'Bộ nhớ ảo', correct: false },
+          { text: 'Bộ nhớ chính', correct: false },
+          { text: 'Ngắt', correct: true }
+        ]
+    },
+
+    {
+        question: 'Trong kỹ thuật quản lý bộ nhớ theo phân chương động, phát biểu nào sau đây là đúng',
+        answers: [
+          { text: 'Bộ nhớ là một vùng nhớ trống ngoài vùng nhớ được cấp cho hệ điều hành', correct: false },
+          { text: 'Bộ nhớ chia thành các phân vùng có kích thước bằng nhau', correct: false },
+          { text: 'Bộ nhớ chia thành các phân vùng có kích thước cố định', correct: false },
+          { text: 'Bộ nhớ chia thành các phân vùng với kích thước phù hợp yêu cầu của tiến trình', correct: true }
+        ]
+    },
+
+{
+    question: 'Ưu điểm nào sau đây không phải là ưu điểm của cấu trúc phân chương',
+    answers: [
+      { text: 'Tồn tại công cụ bên trong bộ nhớ có thể phân chia lại hệ thống', correct: false },
+      { text: 'Đơn giản, dễ bảo vệ', correct: false },
+      { text: 'Có thể phân loại các chương trình trước khi thực hiện, có thể tổ chức phục vụ gần tối ưu', correct: false },
+      { text: 'Hệ thống điều khiển không bị sao chép đi nơi khác', correct: false }
+    ]
+},
+
+{
+    question: 'Cấp phát bộ nhớ theo phương pháp “Phân trang” có đặc trưng nào sau đây?',
+    answers: [
+      { text: 'Tiến trình được cấp phát đủ số khung trang mà tiến trình đó yêu cầu', correct: false },
+      { text: 'Bộ nhớ được phân thành các khung trang có nhiều loại kích thước', correct: false },
+      { text: 'Một trang có kích thước đủ để chứa toàn bộ kích thước của tiến trình.', correct: false },
+      { text: 'Kích thước một trang (page) và một khung trang (frame) bằng nhau.', correct: true }
+    ]
+},
+
+{
+    question: 'Cơ chế quản lý bộ nhớ vật lý nào sau đây chịu ảnh hưởng của việc phân mảnh bộ nhớ ngoài',
+    answers: [
+      { text: 'Phân trang', correct: false },
+      { text: 'Tráo trang (Swappiing)', correct: false },
+      { text: 'Phân trang theo yêu cầu thuần túy', correct: false },
+      { text: 'Phân đoạn', correct: true }
+    ]
+},
+
+{
+    question: 'Trong chế độ kết hợp phân đoạn và phân trang của quản lý bộ nhớ vật lý',
+    answers: [
+      { text: '(p,d,s)', correct: false },
+      { text: '(s,d,p)', correct: false },
+      { text: '(s,p,d)', correct: false },
+      { text: '(p,s,a)', correct: true }
+    ]
+},
+
+{
+    question: 'Đâu không phải đặc điểm của chế độ phân trang?',
+    answers: [
+      { text: '111', correct: false },
+      { text: '111', correct: false },
+      { text: '111', correct: false },
+      { text: '111', correct: true }
+    ]
+},
+
+{
+    question: 'Địa chỉ của bảng phân trang được lưu trữ ở đâu',
+    answers: [
+      { text: 'Con trỏ stack của bảng phân trang', correct: false },
+      { text: 'Con trỏ trang', correct: false },
+      { text: 'Program counter', correct: false },
+      { text: 'Con trỏ base của bảng phân trang', correct: true }
+    ]
+},
+
+{
+    question: 'Trong quan hệ phân cấp và quản lý thiết bị ngoại vi',
+    answers: [
+      { text: 'Vi xử lý điều khiển thiết bị ngoại vi thực hiện theo nguyên tắc MacroProcessor', correct: false },
+      { text: 'Vi xử lý và các thiết bị ngoại vi phụ thuộc nó tạo thành một kênh (chanel)', correct: false },
+      { text: 'Vi xử lý và thiết bị ngoại vi dung chung một ngôn ngữ', correct: false },
+      { text: 'Một thiết bị điều khiển và các thiết bị ngoại vi phụ thuộc nó tạo thành một kênh (channel)', correct: true }
+    ]
+},
+
+{
+    question: 'Hệ điều hành DOS thường sử dụng hệ thống tập tin nào?',
+    answers: [
+      { text: 'FAT32', correct: false },
+      { text: 'WNFS', correct: false },
+      { text: 'NTFS', correct: false },
+      { text: 'FAT16', correct: true }
+    ]
+},
+
+{
+    question: 'Để xác định vị trí một tệp tin, trong các hệ đều hành thường',
+    answers: [
+      { text: 'Xác định danh sách móc nối của tệp', correct: false },
+      { text: 'Xác định đường dẫn đến thư mục chứa tệp', correct: true },
+      { text: 'Xác định tên tệp và phần mở rộng của tệp', correct: false },
+      { text: 'Xác định ổ đĩa chứa tệp', correct: false }
+    ]
+},
+
+{
+    question: 'Bộ nhớ lưu trữ là khái niệm mô tả',
+    answers: [
+      { text: 'Ram, CPU, các thiết bị nhập/ xuất', correct: false },
+      { text: 'Ram, thanh ghi, cache', correct: false },
+      { text: 'Bộ nhớ ảo, đĩa từ, đĩa quang', correct: false },
+      { text: 'Các loại đĩa từ, đĩa quang, thẻ nhớ', correct: true }
+    ]
+},
+
+{
+    question: 'Đâu không phải là vai trò của SPOOL',
+    answers: [
+      { text: 'Giải phóng hệ thống khỏi sự ràng buộc về số lượng thiết bị.', correct: false },
+      { text: 'Cho phép khai thác tối ưu thiết bị ngoại vi', correct: false },
+      { text: 'Tăng độ an toàn thông tin', correct: false },
+      { text: 'Tăng hiệu suất hệ thống', correct: false }
+    ]
+},
+
+{
+    question: 'Đặc điểm nào không phải của Phòng đệm truy nhập theo giá trị?',
+    answers: [
+      { text: 'Vạn năng', correct: false },
+      { text: 'Tốn bộ nhớ', correct: false },
+      { text: 'Hệ số song song cao', correct: false },
+      { text: 'Tiết kiệm thời gian chuyển thông tin', correct: false }
+    ]
+},
+
+{
+    question: 'Hệ quản lý file không có tính chất nào sau đây',
+    answers: [
+      { text: 'Tổ chức hiệu quả dữ liệu', correct: false },
+      { text: 'Bảo vệ dữ liệu', correct: false },
+      { text: 'Độc lập với vi xử lý và với thiết bị ngoại vi', correct: false },
+      { text: 'Thích nghi với những sự thay đổi có thể có trong tương lai', correct: true }
+    ]
+},
+
+{
+    question: 'Trong hệ điều hành Windows tên tệp có độ dài tối đa là',
+    answers: [
+      { text: '11', correct: false },
+      { text: '8', correct: false },
+      { text: '256', correct: false },
+      { text: '255', correct: true }
+    ]
+},
+
+{
+    question: 'Vì sao cách tốt nhất để tổ chức lưu thông tin của một tệp trên đĩa trong một vùng liên tục là',
+    answers: [
+      { text: 'Giảm các lỗi khi đọc/ghi thông tin của tệp', correct: false },
+      { text: 'Có khả năng sử dụng toàn bộ không gian lưu trữ của đĩa từ', correct: false },
+      { text: 'Giảm bớt không gian dư thừa trên đĩa', correct: false },
+      { text: 'Giảm thời gian dịch chuyển đầu từ khi thực hiện đọc/ghi', correct: true }
+    ]
+}
 ]
