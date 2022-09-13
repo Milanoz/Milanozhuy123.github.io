@@ -708,8 +708,8 @@ const questions = [
         answers: [
           { text: 'Hỗ trợ người dùng thực hiện một file bất kỳ', correct: false },
           { text: 'Quản lý bộ nhớ và thiết bị ngoại vi', correct: false },
-          { text: 'Điều khiển thực hiện phần mềm', correct: false },
-          { text: 'Quản lý các tài nguyên trên máy tính', correct: true }
+          { text: 'Điều khiển thực hiện phần mềm', correct: true },
+          { text: 'Quản lý các tài nguyên trên máy tính', correct: false }
         ]
     },
 
