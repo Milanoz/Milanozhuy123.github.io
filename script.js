@@ -1061,7 +1061,7 @@ const questions = [
     answers: [
       {text: 'Bộ xử lý', correct: false},
       {text: 'Các thiết bị vào ra và đĩa', correct: false},
-      {text: 'Bộ nhớ', correct: true},
+      {text: 'Bộ nhớ', correct: false},
       {text: 'Tất cả những tài nguyên trên',correct: true}
     ]
   },
