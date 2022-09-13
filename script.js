@@ -1101,4 +1101,94 @@ const questions = [
       {text: 'Không độc quyền',correct: false}
     ]
   }
+      {
+    question: ' Để khắc phục chờ đợi vòng khi điều độ tiến trình, hệ thống phải:',
+    answers: [
+      {text: 'A.	Phân phối trước tài nguyên', correct: false},
+      {text: 'B.	Tạo các điểm gác', correct: false},
+      {text: 'C.	Phân lớp tài nguyên', correct: true},
+      {text: 'D.	Mô phỏng tài nguyên', correct: false}
+    ]
+  },
+  {
+    question: 'Tiến trình yêu cầu một tài nguyên nhưng chưa được đáp ứng vì tài nguyên chưa sẵn sàng, hoặc tiến trình phải chờ một sự kiện hay thao tác nhập xuất ” thuộc dạng chuyển trạng thái nào sau đây',
+    answers: [
+      {text: 'A.	Running ® End.', correct: false},
+      {text: 'B.	Running ® Ready', correct: false},
+      {text: 'C.	Ready ® Running', correct: false},
+      {text: 'D.	Running ® Blocked', correct: true}
+    ]
+  },
+  {
+    question: 'Tiến trình là:',
+    answers: [
+      {text: 'A.	Một chương trình được nạp trong bộ nhớ và đã thực hiện xong', correct: false},
+      {text: 'B.	Một chương trình lưu trên đĩa.', correct: false},
+      {text: 'C.	Một chương trình đã nạp trong bộ nhớ', correct: false},
+      {text: 'D.	Một quá trình thực hiện của một chương trình', correct: true}
+    ]
+  },
+  {
+    question: 'Khi phát hiện tắc nghẽn, hệ thống cần',
+    answers: [
+      {text: 'A.	Đưa tiến trình tắc nghẽn về về trạng thái ngắt', correct: false},
+      {text: 'B.	Đình chỉ hoạt động của các tiến trình liên quan về trạng thái ngắt', correct: true},
+      {text: 'C.	Phục hồi trạng thái của tiến trình trước thời điểm bị tắc nghẽn', correct: false},
+      {text: 'D.	Thu hồi tất cả tài nguyên của tiến trình ở tình trạng tắc nghẽn', correct: false}
+    ]
+  },
+  {
+    question: 'Khi phát hiện tắc nghẽn, hệ thống cần',
+    answers: [
+      {text: 'A.	Đưa tiến trình tắc nghẽn về về trạng thái ngắt', correct: false},
+      {text: 'B.	Đình chỉ hoạt động của các tiến trình liên quan về trạng thái ngắt', correct: true},
+      {text: 'C.	Phục hồi trạng thái của tiến trình trước thời điểm bị tắc nghẽn', correct: false},
+      {text: 'D.	Thu hồi tất cả tài nguyên của tiến trình ở tình trạng tắc nghẽn', correct: false}
+    ]
+  },
+  {
+    question: 'Trong hệ điều hành đa nhiệm, các tiến trình thực hiện trao đổi thông tin với nhau thông qua cơ chế',
+    answers: [
+      {text: 'A.	Trao đổi thông qua các thông điệp', correct: false},
+      {text: 'B.	Trao đổi thông qua tiến trình thứ 3', correct: true},
+      {text: 'C.	Trao đổi thông qua hộp thư', correct: false},
+      {text: 'D.	Trao đổi trực tiếp với nhau', correct: false}
+    ]
+  },
+  {
+    question: 'Trong chế độ phân trang của quản lý bộ nhớ vật lý',
+    answers: [
+      {text: 'A.	Hiệu quả phụ thuộc vào cấu trúc ban đầu của chương trình nguồn', correct: false},
+      {text: 'B.	Nếu có sự cố kỹ thuật thì chương trình sẽ bị phá hủy', correct: false},
+      {text: 'C.	Hạn chế việc thiếu bộ nhớ', correct: true},
+      {text: 'D.	Xuất hiện hiện tượng phân đoạn ngoài', correct: false}
+    ]
+  },
+  {
+    question: 'Bộ nhớ ảo (Virtual Memory) là gì?',
+    answers: [
+      {text: 'A.	vùng nhớ chứa giá trị các biến số trong khi bộ nhớ chính chứa lệnh.', correct: false},
+      {text: 'B.	vùng nhớ mở rộng của bộ nhớ chính nhằm gia tăng kích thước bộ nhớ.', correct: false},
+      {text: 'C.	vùng nhớ chứa những phần của tiến trình chưa được nạp vào bộ nhớ chính.', correct: true},
+      {text: 'D.	là một bản sao chép của bộ nhớ chính nhằm mục đích chia sẻ.', correct: false}
+    ]
+  },
+  {
+    question: 'Trong kỹ thuật quản lý bộ nhớ phân vùng cố định sử dụng phương pháp nào để quản lý bộ nhớ tự do:',
+    answers: [
+      {text: 'A.	Bản đồ bitmap.', correct: false},
+      {text: 'B.	Danh sách các vùng bộ nhớ tự do.', correct: true},
+      {text: 'C.	Cả 3 đều sai', correct: false},
+      {text: 'D.	Danh sách các vùng bộ nhớ đã cấp phát.', correct: false}
+    ]
+  },
+  {
+    question: 'Trong kỹ thuật quản lý bộ nhớ phân vùng cố định sử dụng phương pháp nào để quản lý bộ nhớ tự do:',
+    answers: [
+      {text: 'A.	Đoạn chương trình sử dụng tài nguyên ngoài.', correct: false},
+      {text: 'B.	Đoạn chương trình sử dụng tài nguyên trong.', correct: false},
+      {text: 'C.	Đoạn chương trình sử dụng tài nguyên trong', correct: true},
+      {text: 'D.	Đoạn chương trình cho tài nguyên găng.', correct: false}
+    ]
+  },
 ]
