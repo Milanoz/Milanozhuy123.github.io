@@ -1191,4 +1191,130 @@ const questions = [
       {text: 'D.	Đoạn chương trình cho tài nguyên găng.', correct: false}
     ]
   },
+  {
+  question: 'Trong chế độ phân đoạn của quản lý bộ nhớ vật lý',
+    answers: [
+      { text: 'Không có hiện tượng phân đoạn ngoài', correct: false },
+      { text: 'Cho phép sử dụng chung các modul trong bộ nhớ', correct: true },
+      { text: 'Cả 3 đáp án còn lại đều sai', correct: false},
+      { text: 'Bộ nhớ vật lý phải có cấu trúc phân đoạn', correct: false}
+    ]
+  },
+  {
+    question: 'Nhược điểm nào sau đây không phải là nhược điểm của cấu trúc phương chương (động)',
+    answers: [
+      { text: 'Xuất hiện hiện tượng phân đoạn ngoài', correct: false },
+      { text: 'Cơ chế quản lí phức tạp', correct: false },
+      { text: 'Khi gặp sự cố kỹ thuật, chương trình sẽ bị phá huỷ', correct: false },
+      { text: 'Bộ nhớ bị phân đoạn nên khi phân chia lại sẽ thay đổi đường biên thông tin bị xoá', correct: true }
+    ]
+  },
+{
+    question: 'Các thanh ghi giới hạn',
+    answers: [
+      { text: 'Chỉ cần thiết với các đoạn cố định', correct: false },
+      { text: 'Theo dõi vị trí bắt đầu và kết thúc của chương trình', correct: true },
+      { text: 'Theo dõi ranh giới của các trang', correct: false },
+      { text: 'Có trong việc lưu trữ biến trung gian của chương trình', correct: false }
+    ]
+  },
+{
+    question: 'Đâu là đặc điểm của chế độ quản lí bộ nhớ theo module?',
+    answers: [
+      { text: 'Không cần phân phối bộ nhớ liên tục.', correct: false },
+      { text: 'Tất cả các đáp án trên', correct: true },
+      { text: 'Tồn tại hiện tượng phân đoạn ngoài.', correct: false },
+      { text: 'Hiệu quả phụ thuộc vào cấu trúc chương trình nguồn.', correct: false }
+    ]
+  },
+{
+    question: 'Trong chế độ phân chương tĩnh của quản lý bộ nhớ vật lý',
+    answers: [
+      { text: 'Không có hiện tượng phân đoạn ngoài', correct: false },
+      { text: 'Đơn giản, dễ bảo vệ', correct: true },
+      { text: 'Tồn tại một danh sách quản lý bộ nhớ tự do chung', correct: false },
+      { text: 'Hệ thống điều khiển không bị sao chép đi nơi khác', correct: false }
+    ]
+  },
+{
+    question: 'Thông tin chứa trong Bảng phân trang là dùng để:',
+    answers: [
+      { text: 'Cho biết thông tin các tiến trình có bao nhiêu trang.', correct: false },
+      { text: 'Lưu số trang của tiến trình đang hoạt động trong bộ nhớ chính.', correct: false },
+      { text: 'Lưu số trang hợp lệ của tiến trình đã được cấp phát trước đó.', correct: false },
+      { text: 'Lưu thông tin vị trí nạp các trang của tiến trình trong bộ nhớ chính.', correct: true }
+    ]
+  },
+{
+    question: 'Cơ chế phòng đệm cho phép',
+    answers: [
+      { text: 'Tất cả đều đúng', correct: true },
+      { text: 'Giảm số lần truy cập vật lý', correct: false },
+      { text: 'Thực hiện trước các phép nhập liệu', correct: false },
+      { text: 'Dùng một số vùng nhớ chung làm phòng đệm', correct: false }
+    ]
+  },
+{
+    question: 'Một hệ thống thư mục tập tin có cấu trúc cây',
+    answers: [
+      { text: 'Là một đặc trưng không cần thiết gây nhiều tranh cãi', correct: false },
+      { text: 'Không phương án nào ở trên', correct: false },
+      { text: 'Không có tính chất căn bản khi chúng ta có hàng triệu tập tin', correct: false },
+      { text: 'Cho phép lưu trữ và tìm kiếm các tập tin dễ dàng', correct: true }
+    ]
+  },
+{
+    question: 'Thiết bị ngoại vi trả lại cho vi xử lý một trị số (mã trở về) để vi xử lý',
+    answers: [
+      { text: 'Điều khiển thiết bị ngoại vi dừng trao đổi vào/ra', correct: false },
+      { text: 'Dùng giá trị để thực hiện các thao tác xử lý khác', correct: false },
+      { text: 'Thông báo giá trị mã trở về cho người sử dụng biết', correct: false },
+      { text: 'Đánh giá chất lượng thực hiện phép vào/ra', correct: true }
+    ]
+  },
+{
+    question: 'Trong hệ điều hành để tổ chức, quản lý dữ liệu trên thiết bị lưu trữ cần',
+    answers: [
+      { text: 'Phân vùng lưu trữ liên tiếp riêng độc lập cho từng file', correct: false },
+      { text: 'Tổ chức các bảng quản lý theo từng nhóm file', correct: false },
+      { text: 'Tất cả đều đúng', correct: false },
+      { text: 'Tổ chức danh sách móc nối thông tin về file', correct: true }
+    ]
+  },
+{
+    question: 'Khi nhận được yêu cầu ngắt từ thiết bị ngoại vi, tùy theo tín hiệu ngắt, vi xử lý sẽ',
+    answers: [
+      { text: 'Lưu trữ lại và cờ xử lý ngắt sau đó', correct: false },
+      { text: 'Hủy bỏ tín hiệu ngắt', correct: false },
+      { text: 'Tất cả đều đúng', correct: true },
+      { text: 'Thực hiện ngắt ngay', correct: false }
+    ]
+  },
+{
+    question: 'SPOOL có mấy giai đoạn, là những giai đoạn nào?',
+    answers: [
+      { text: '2 giai đoạn: thực hiện, xử lí kết thúc', correct: true },
+      { text: '3 giai đoạn: khởi tạo, thực hiện, kết thúc.', correct: false },
+      { text: '3 giai đoạn: khởi tạo, xử lí, kết thúc.', correct: false },
+      { text: '4 giai đoạn: khởi tạo, thực hiện, xử lí, kết thúc.', correct: false }
+    ]
+  },
+{
+    question: 'Thư mục gốc của đĩa chứa thông tin',
+    answers: [
+      { text: 'Danh mục hệ thống file trên đĩa', correct: true },
+      { text: 'Thông tin về phân vùng khởi động đĩa.', correct: false },
+      { text: 'Thông số các bảng phân vùng đĩa', correct: false },
+      { text: 'Danh sách móc nối các liên cung của cùng một tệp', correct: false }
+    ]
+},
+{
+    question: 'Cài đặt thư mục nào được sử dụng trong phần lớn các hệ điều hành',
+    answers: [
+      { text: 'Cấu trúc thư mục không có chu trình', correct: false },
+      { text: 'Cấu trúc thư mục một mức', correct: false },
+      { text: 'Cấu trúc thư mục hai mức', correct: false },
+      { text: 'Cấu trúc thư mục dạng cây', correct: true }
+    ]
+  }
 ]
