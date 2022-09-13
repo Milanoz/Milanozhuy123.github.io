@@ -853,7 +853,7 @@ const questions = [
 {
     question: 'Ưu điểm nào sau đây không phải là ưu điểm của cấu trúc phân chương',
     answers: [
-      { text: 'Tồn tại công cụ bên trong bộ nhớ có thể phân chia lại hệ thống', correct: false },
+      { text: 'Tồn tại công cụ bên trong bộ nhớ có thể phân chia lại hệ thống', correct: true },
       { text: 'Đơn giản, dễ bảo vệ', correct: false },
       { text: 'Có thể phân loại các chương trình trước khi thực hiện, có thể tổ chức phục vụ gần tối ưu', correct: false },
       { text: 'Hệ thống điều khiển không bị sao chép đi nơi khác', correct: false }
