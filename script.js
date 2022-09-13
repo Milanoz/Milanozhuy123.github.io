@@ -1001,8 +1001,8 @@ const questions = [
 },    {
     question: 'Dưới góc độ người dùng, hệ điều hành có thể được phân thành các loại?',
     answers: [
-      {text: 'HĐH ngang hàng, HĐH có máy chủ', correct: false},
-      {text: 'HĐH cho máy mainframe, HĐH cho server, HĐH multiprocessor', correct: true},
+      {text: 'HĐH ngang hàng, HĐH có máy chủ', correct: true},
+      {text: 'HĐH cho máy mainframe, HĐH cho server, HĐH multiprocessor', correct: false},
       {text: 'HĐH ngang hàng, HĐH cho máy mainframe, HĐH multiprocessor', correct: false},
       {text: 'HĐH xử lý theo lô, HĐH chia sẻ, HĐH cho hệ thống song song, HĐH phân tán, HĐH xử lý thời gian thực',correct: false}
     ]
