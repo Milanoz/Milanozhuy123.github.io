@@ -716,9 +716,6 @@ const questions = [
     {
         question: 'Khi khởi động máy tính, hệ điều hành được nạp vào:',
         answers: [
-          { text: 'Bộ nhớ RAM', correct: true },
-          { text: 'Bộ nhớ RAM', correct: true },
-          { text: 'Bộ nhớ RAM', correct: true },
           { text: 'Bộ nhớ RAM', correct: true }
         ]
     },
@@ -726,10 +723,10 @@ const questions = [
     {
         question: 'Có mấy lớp giải thuật điều độ cấp thấp?',
         answers: [
-          { text: '111', correct: false },
-          { text: '111', correct: false },
-          { text: '111', correct: false },
-          { text: '111', correct: true }
+          { text: '1', correct: false },
+          { text: '2', correct: false },
+          { text: '3', correct: true },
+          { text: '4', correct: false }
         ]
     },
 
@@ -959,7 +956,7 @@ const questions = [
       { text: 'Giải phóng hệ thống khỏi sự ràng buộc về số lượng thiết bị.', correct: false },
       { text: 'Cho phép khai thác tối ưu thiết bị ngoại vi', correct: false },
       { text: 'Tăng độ an toàn thông tin', correct: false },
-      { text: 'Tăng hiệu suất hệ thống', correct: false }
+      { text: 'Tăng hiệu suất hệ thống', correct: true }
     ]
 },
 
@@ -969,7 +966,7 @@ const questions = [
       { text: 'Vạn năng', correct: false },
       { text: 'Tốn bộ nhớ', correct: false },
       { text: 'Hệ số song song cao', correct: false },
-      { text: 'Tiết kiệm thời gian chuyển thông tin', correct: false }
+      { text: 'Tiết kiệm thời gian chuyển thông tin', correct: true }
     ]
 },
 
