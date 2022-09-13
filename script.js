@@ -1100,7 +1100,7 @@ const questions = [
       {text: 'Cả 2 chế độ độc quyền và không độc quyền', correct: false},
       {text: 'Không độc quyền',correct: false}
     ]
-  }
+  },
       {
     question: ' Để khắc phục chờ đợi vòng khi điều độ tiến trình, hệ thống phải:',
     answers: [
